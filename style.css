@@ -83,7 +83,7 @@ html {
 }
 
 body {
-  background:  hsl(0, 0%, 7%);
+  background: linear-gradient(to right, #8f8b8b, #000000);
 }
 
 .sidebar,
@@ -1585,12 +1585,12 @@ textarea.form-input::-webkit-resizer {
   }
 
   body::-webkit-scrollbar-track {
-    background:  hsl(0, 0%, 7%);
+    background:  hsl(0, 0%, 0%);
   }
 
   body::-webkit-scrollbar-thumb {
     border: 5px solid  hsl(0, 0%, 7%);
-    background: hsla(0, 0%, 100%, 0.1);
+    background: hsla(0, 10%, 41%, 0.1);
     border-radius: 20px;
     box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
       inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
@@ -1598,10 +1598,6 @@ textarea.form-input::-webkit-resizer {
 
   body::-webkit-scrollbar-thumb:hover {
     background: hsla(0, 0%, 100%, 0.15);
-  }
-
-  body::-webkit-scrollbar-button {
-    height: 60px;
   }
 
   .sidebar,
